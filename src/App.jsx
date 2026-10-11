@@ -99,7 +99,7 @@ function App() {
             <div className="mx-auto w-full max-w-sm">
               <div className="rounded-3xl border border-white/10 bg-white/10 p-3 shadow-2xl backdrop-blur">
                 <div className="overflow-hidden rounded-2xl bg-slate-800">
-                  <img src={profileImage} alt="Fernando Bueno" className="aspect-square w-full object-cover" />
+                  <img  src={`${import.meta.env.BASE_URL}images/foto.jpg`} alt="Fernando Bueno" className="aspect-square w-full object-cover" />
                 </div>
                 <div className="p-5 text-center">
                   <p className="text-lg font-bold text-white">Fernando Bueno</p>
